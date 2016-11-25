@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html, body {
+	height: 100%;
+}
+
 .header .img-responsive {
 	margin: 0 auto;
 	padding-top: 75px;
@@ -12,10 +16,30 @@
 	color: white;
 }
 
+.main_bg {
+	background-image: asset_url('black_back.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
 .main {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	height: 550px;
+
 }
+.main a:link {
+	color: white;
+}
+
+.main a:visited {
+	color: white;
+}
+
+.main a:hover {
+	color: black;
+}
+
 
 .logo {
 	border: 5px outset grey;
@@ -30,6 +54,23 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.parallax2 {
+	/*background-image: url('/assets/stars.jpg');*/
+	background-image: asset_url('stars.jpg');
+	height: 200px;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#footer {
+	text-align: center;
+	padding-top: 75px;
+	color: white;
 }
 
 .awesomebox {
@@ -94,5 +135,15 @@
 	padding-top: auto;
 	color: black;
 	border: 5px outset purple;
+}
+
+/*************************** Portfolio **********************/
+.portfolio_main {
+	background-image: asset_url('black_back.jpg');
+	height: 100%;
+}
+
+.portfolio_main h2 {
+	color: white;
 }
 
