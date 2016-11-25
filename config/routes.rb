@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'pages#index'
   get 'games' => 'games#index'
   get 'portfolio' => 'pages#portfolio'
+  get 'avery' => 'pages#avery'
 end
