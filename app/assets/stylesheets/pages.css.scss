@@ -22,7 +22,8 @@
 }
 
 .parallax {
-	background-image: url('/assets/stars.jpg');
+	/*background-image: url('/assets/stars.jpg');*/
+	background-image: asset_url('stars.jpg');
 	height: 500px;
 
 	background-attachment: fixed;
